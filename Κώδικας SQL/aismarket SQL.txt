@@ -1,0 +1,12 @@
+# Δημιουργία Βάσης
+CREATE DATABASE aismarket;
+USE aismarket;
+
+# Δημιουργία Πίνακα
+CREATE TABLE USERS
+(
+    U_ID INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,  # αυξάνεται αυτόματα
+    U_FULLNAME VARCHAR(100) NOT NULL,
+    U_EMAIL VARCHAR(100) NOT NULL,
+    U_PASSWD VARCHAR(10) NOT NULL
+);
